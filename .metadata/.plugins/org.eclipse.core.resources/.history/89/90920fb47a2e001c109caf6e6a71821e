@@ -1,0 +1,13 @@
+package com.play.exception;
+
+/**
+ * @author Maurizio Minieri
+ * mauminieri@gmail.com
+ * www.mauriziominieri.it 
+ **/
+
+public class EmptyDateException extends RuntimeException {
+
+	private static final long serialVersionUID = 3676134023037006132L;
+
+}

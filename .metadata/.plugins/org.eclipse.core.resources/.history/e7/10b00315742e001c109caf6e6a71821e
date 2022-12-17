@@ -1,0 +1,11 @@
+package com.play.dto;
+
+/**
+ * @author Maurizio Minieri
+ * mauminieri@gmail.com
+ * www.mauriziominieri.it 
+ **/
+
+public class JsonResponseDto {
+
+}

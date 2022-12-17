@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.jetbrains.kotlin.ui.scriptLaunchConfiguration">
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_CAPTURE_STDIN_FILE" value="${workspace_loc:/gierre-project-service/src/main/kotlin/com/kotlin/gierreprojectwebservice/GierreProjectWebserviceApplication.kt}"/>
+    <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+        <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+    </listAttribute>
+</launchConfiguration>

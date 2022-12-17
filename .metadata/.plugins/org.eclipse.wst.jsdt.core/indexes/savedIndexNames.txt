@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+/Users/mauriziominieri/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3944703940.index
+1731600091.index
+2960610572.index
+3644348580.index
+338539460.index
+4264299113.index
+1888210887.index
+2971462091.index

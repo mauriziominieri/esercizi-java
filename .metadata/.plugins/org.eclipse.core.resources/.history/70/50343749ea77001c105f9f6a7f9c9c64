@@ -1,0 +1,21 @@
+package com.kotlin.gierreprojectwebservice.controller
+
+import org.springframework.stereotype.Controller
+import org.springframework.ui.Model
+import org.springframework.web.bind.annotation.GetMapping
+
+
+@Controller
+class KnackController {
+
+    @GetMapping(value = ["/", "/dashboard"]) // si può fare?
+    fun dashboard(model: Model): String {
+        return "index"
+    }
+
+
+    @GetMapping(value = ["/login"])
+    fun login(model: Model): String {
+        return "login"
+    }
+}

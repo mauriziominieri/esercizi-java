@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;gierre-controlla-operatori/src/main/resources/templates/dashboard.html&apos; to &apos;index.html&apos;" description="Rename resource &apos;dashboard.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/templates/dashboard.html" name="index.html" stamp="1635684149501" updateReferences="true"/>
+</session>

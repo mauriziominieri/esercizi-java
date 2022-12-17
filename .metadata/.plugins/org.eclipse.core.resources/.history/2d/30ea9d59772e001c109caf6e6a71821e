@@ -1,0 +1,37 @@
+package com.play.service;
+
+import java.util.Date;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.play.dao.UfficioDao;
+import com.play.dto.UfficioDto;
+import com.play.mapper.UfficioMapper;
+
+
+/**
+ * @author Maurizio Minieri
+ * mauminieri@gmail.com
+ * www.mauriziominieri.it 
+ **/
+
+@Service
+public class UfficioService {
+	
+	@Autowired
+	private UfficioDao ufficioDao;
+	@Autowired
+	private UfficioMapper ufficioMapper;
+	
+	public List<UfficioDto> findAll() throws Exception {
+		return ufficioMapper.toDtos(ufficioDao.findAll());
+	}
+	
+	public List<UfficioDto> findByXYZ(String x, Optional<String> y, Date z) throws Exception {
+		return ufficioMapper.toDtos(ufficioDao.findByXAndYAndZ(x, y, z));
+	}
+
+}

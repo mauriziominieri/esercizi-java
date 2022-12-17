@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-jpa=3
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.security=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.thymeleaf=2
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=3
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=gierre-emula-operatori
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=2.5.6
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Emula Operatori
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.play
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=11
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=gierre-emula-operatori
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.play.dashboard
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=war
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

@@ -1,0 +1,22 @@
+package com.play.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+/**
+ * @author Maurizio Minieri
+ * mauminieri@gmail.com
+ * www.mauriziominieri.it 
+ **/
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class UfficioDto {
+	
+	private long id;
+
+}

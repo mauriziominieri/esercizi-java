@@ -1,0 +1,30 @@
+package com.play.dto;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+/**
+ * @author Maurizio Minieri
+ * mauminieri@gmail.com
+ * www.mauriziominieri.it 
+ **/
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class UfficioDto {
+	
+	private long id;
+	private String nome;
+	private String x;
+	private String y;
+	private Date z;
+
+}

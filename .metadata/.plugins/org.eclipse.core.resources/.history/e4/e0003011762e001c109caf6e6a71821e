@@ -1,0 +1,22 @@
+package com.play.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+/**
+ * @author Maurizio Minieri
+ * mauminieri@gmail.com
+ * www.mauriziominieri.it 
+ **/
+
+@Entity
+@Table(name="uffici")
+public class Ufficio {
+	
+	@Id
+	private long id;
+	
+	//bisogna fare in modo di crearla automaticamente da JPA Tools > Generate Entities from Tables
+
+}

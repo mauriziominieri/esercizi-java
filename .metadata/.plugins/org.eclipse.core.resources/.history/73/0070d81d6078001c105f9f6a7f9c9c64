@@ -1,0 +1,35 @@
+package com.play.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import io.swagger.annotations.ApiOperation;
+
+@Controller
+public class DashboardController {
+
+    @ApiOperation("Pagina Home")
+    @GetMapping(value = {"", "/", "/dashboard"})
+    public String dashboard() {
+        return "index";
+    }
+
+    @ApiOperation("Pagina Ricerche")
+    @GetMapping(value = {"ricerche"})
+    public String ricerche() {
+        return "ricerche";
+    }
+
+    @ApiOperation("Pagina PodPdrMorosita")
+    @GetMapping(value = {"pod"})
+    public String pod() {
+        return "podpdrmorosita";
+    }
+
+    @ApiOperation("Pagina Login")
+    @GetMapping(value = {"login"})
+    public String pod() {
+        return "login";
+    }
+
+}

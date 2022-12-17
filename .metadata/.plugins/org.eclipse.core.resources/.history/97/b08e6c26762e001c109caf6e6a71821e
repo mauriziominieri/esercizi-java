@@ -1,0 +1,25 @@
+package com.play.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+/**
+ * @author Maurizio Minieri
+ * mauminieri@gmail.com
+ * www.mauriziominieri.it 
+ **/
+
+@Entity
+@Table(name="uffici")
+public class Ufficio implements Serializable {
+	
+	@Id
+	private long id;
+	
+	
+	private String nome;
+
+}

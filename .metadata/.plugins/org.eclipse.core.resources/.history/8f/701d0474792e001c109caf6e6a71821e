@@ -1,0 +1,25 @@
+package com.play.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+/**
+ * @author Maurizio Minieri
+ * mauminieri@gmail.com
+ * www.mauriziominieri.it 
+ **/
+
+/*
+ * Swagger configuration class
+ */
+
+@Configuration
+@EnableSwagger2
+public class SpringFoxConfig {
+	@Bean
+	public Docket api() {
+		
+	}
+}

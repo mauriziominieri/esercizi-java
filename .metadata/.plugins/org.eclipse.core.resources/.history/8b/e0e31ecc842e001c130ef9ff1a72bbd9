@@ -1,0 +1,14 @@
+#PhpMyAdmin
+spring.datasource.url=jdbc:mysql://152.228.250.188:3306/obiettivi_mese
+spring.datasource.username=sales
+spring.datasource.password=k!V6v83k
+
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.Oracle10gDialect
+spring.jpa.database=oracle
+
+#Swagger
+springfox.documentation.swagger.v2.path=/dashboard/v2/api-docs
+springfox.documentation.swagger.v3.path=/dashboard/v3/api-docs
+

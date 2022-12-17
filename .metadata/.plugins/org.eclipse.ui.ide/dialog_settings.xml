@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.springsource.ide.eclipse.commons.gettingstarted.wizard.boot.NewSpringBootWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ajdt.wizards"/>
+			<item value="org.eclipse.ajdt.wizards/org.eclipse.ajdt.examples"/>
+			<item value="org.springframework.ide.eclipse.beans.ui.wizards.category"/>
+			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
+		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="true"/>
+		<item key="DIALOG_WIDTH" value="544"/>
+		<item key="DIALOG_HEIGHT" value="367"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/mauriziominieri/git/gierre-project-service"/>
+			<item value="/Users/mauriziominieri/git/gierre-controllo-doppioni"/>
+			<item value="/Users/mauriziominieri/git/gierre-emula-operatori"/>
+			<item value="/Users/mauriziominieri/git/dashboard_webservice"/>
+			<item value="/Users/mauriziominieri/git/dashboardapi"/>
+			<item value="/Users/mauriziominieri/Downloads/Prove su Netbeans/Esame 18-07-19"/>
+			<item value="/Users/mauriziominieri/eclipse-workspace/2018-10-18"/>
+			<item value="/Users/mauriziominieri/git/gierre-sales-webservice"/>
+			<item value="/Users/mauriziominieri/git/dashboard"/>
+			<item value="/Users/mauriziominieri/Downloads/Telegram Desktop/demo"/>
+			<item value="/Users/mauriziominieri/Downloads/Telegram Desktop/demo/target/classes/com/example/demo"/>
+			<item value="/Users/mauriziominieri/git/spring-security-registration"/>
+			<item value="/Users/mauriziominieri/Downloads/spring-security-registration-master"/>
+			<item value="/Users/mauriziominieri/Downloads/Telegram Desktop/Film"/>
+			<item value="/Users/mauriziominieri/git/barberapp-webservice"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode/&gt;&#x0A;&lt;/History&gt;"/>
+		<item key="ShowDerived" value="false"/>
+		<item key="FilterByLocation" value="false"/>
+		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="596"/>
+			<item key="DIALOG_Y_ORIGIN" value="182"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="601"/>
+		<item key="DIALOG_Y_ORIGIN" value="252"/>
+		<item key="DIALOG_WIDTH" value="590"/>
+		<item key="DIALOG_HEIGHT" value="528"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+</section>

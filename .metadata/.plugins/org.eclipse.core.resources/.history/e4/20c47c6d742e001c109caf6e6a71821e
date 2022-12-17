@@ -1,0 +1,21 @@
+package com.play.dto;
+
+import java.io.Serializable;
+
+/**
+ * @author Maurizio Minieri
+ * mauminieri@gmail.com
+ * www.mauriziominieri.it 
+ **/
+
+public class JsonResponseDto<T> implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1099874681211107208L;
+	
+	private static final String SUCCESS = "La richiesta è andata a buon fine."; 
+	private static final String FAILURE = "Si è verificato un errore durante la richiesta: "; 
+
+}

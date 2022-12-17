@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+/Users/mauriziominieri/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2014463708.index
+/firstWebProject/src
+/Users/mauriziominieri/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/285807129.index
+/Film/src/main/java

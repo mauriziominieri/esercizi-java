@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:01:07 +0200] "GET /firstWebProject/MyServlet? HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:02:16 +0200] "GET /firstWebProject/MyServlet? HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:02:17 +0200] "GET /firstWebProject/MyServlet? HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:02:18 +0200] "GET /firstWebProject/MyServlet? HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:02:26 +0200] "GET /firstWebProject/MyServlet? HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:02:27 +0200] "GET /firstWebProject/MyServlet? HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:02:27 +0200] "GET /firstWebProject/MyServlet? HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:02:27 +0200] "GET /firstWebProject/MyServlet? HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:02:37 +0200] "GET /firstWebProject/MyServlet? HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:02:37 +0200] "GET /firstWebProject/MyServlet? HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:02:38 +0200] "GET /firstWebProject/MyServlet? HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:02:52 +0200] "GET /firstWebProject/MyServlet? HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:02:53 +0200] "GET /firstWebProject/MyServlet? HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:02:55 +0200] "GET /firstWebProject/MyServlet? HTTP/1.1" 200 48
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:03:58 +0200] "GET /firstWebProject/MyServlet HTTP/1.1" 200 48
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:04:01 +0200] "GET /firstWebProject HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Sep/2020:00:04:01 +0200] "GET /firstWebProject/ HTTP/1.1" 200 188

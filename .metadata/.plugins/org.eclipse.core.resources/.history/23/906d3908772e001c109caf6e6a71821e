@@ -1,0 +1,57 @@
+package com.play.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.NamedQuery;
+import javax.persistence.Table;
+
+/**
+ * @author Maurizio Minieri
+ * mauminieri@gmail.com
+ * www.mauriziominieri.it 
+ **/
+
+@Entity
+@Table(name="uffici")
+@NamedQuery(name = "uffici.findAll", query = "SELECT u FROM Ufficio u")
+public class Ufficio implements Serializable {
+	
+	private static final long serialVersionUID = -3332132371369264358L;
+
+
+	@Id
+	@Column(name = "ID")
+	private long id;
+	
+	@Column(name = "NOME")
+	private String nome;
+	
+	@Column(name = "X")
+	private String x;
+	
+	@Column(name = "Y")
+	private String y;
+	
+	@Column(name = "Z")
+	private String z;
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+}

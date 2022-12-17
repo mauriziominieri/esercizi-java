@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=/Users/mauriziominieri/git/gierre-controlla-operatori/.git\:/Users/mauriziominieri/git/gierre-emula-operatori/.git\:/Users/mauriziominieri/git/gierre-controllo-doppioni/.git\:/Users/mauriziominieri/git/gierre-project-service/.git\:/Users/mauriziominieri/git/gierre-dashboard-webservice/.git\:
+GitRepositoriesView.GitDirectories.relative=/Users/mauriziominieri/git/gierre-controlla-operatori/.git\:/Users/mauriziominieri/git/gierre-emula-operatori/.git\:/Users/mauriziominieri/git/gierre-controllo-doppioni/.git\:/Users/mauriziominieri/git/gierre-project-service/.git\:/Users/mauriziominieri/git/gierre-dashboard-webservice/.git\:
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

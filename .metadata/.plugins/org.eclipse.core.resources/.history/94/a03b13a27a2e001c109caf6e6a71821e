@@ -1,0 +1,11 @@
+package com.play.exception;
+
+/**
+ * @author Maurizio Minieri
+ * mauminieri@gmail.com
+ * www.mauriziominieri.it 
+ **/
+
+public class EmptyDateException {
+
+}

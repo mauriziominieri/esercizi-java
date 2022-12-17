@@ -1,0 +1,39 @@
+package com.play.dto;
+
+import java.io.Serializable;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+/**
+ * @author Maurizio Minieri
+ * mauminieri@gmail.com
+ * www.mauriziominieri.it 
+ **/
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class JsonResponseDto<T> implements Serializable {
+
+	private static final long serialVersionUID = 1099874681211107208L;
+	
+	public static final String SUCCESS = "La richiesta è andata a buon fine."; 
+	public static final String FAILURE = "Si è verificato un errore durante la richiesta: "; 
+	
+	
+	
+	public JsonResponseDto(String message, int status, T data) {
+		super();
+		this.message = message;
+		this.status = status;
+		this.data = data;
+	}
+	private String message;
+	private int status;
+	private T data;
+
+}

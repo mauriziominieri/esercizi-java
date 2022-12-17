@@ -1,0 +1,23 @@
+package com.play.model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+import java.math.BigDecimal;
+import java.util.Date;
+
+/**
+ * @author Maurizio Minieri
+ * mauminieri@gmail.com
+ * www.mauriziominieri.it 
+ **/
+
+@Entity
+@Table(name="uffici")
+public class Ufficio {
+	
+	@Id
+	private long id;
+	
+	//bisogna fare in modo di crearla automaticamente da JPA Tools > Generate Entities from Tables
+
+}

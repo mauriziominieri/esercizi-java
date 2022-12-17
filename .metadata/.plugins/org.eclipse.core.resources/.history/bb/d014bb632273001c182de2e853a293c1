@@ -1,0 +1,66 @@
+package com.play.dto;
+
+import com.google.gson.annotations.SerializedName;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+public class GreenNetworkPodResponseDto {
+
+    @SerializedName("IDRigaContratto")
+    private String rigaContratto;
+
+    @SerializedName("IsAgenteEnabled")
+    private Boolean isAgenteEnabled;
+
+    @SerializedName("IsEnabled")
+    private Boolean isEnabled;
+
+    @SerializedName("IsWinback")
+    private Boolean isWinback;
+
+    @SerializedName("eneClienteSede")
+    private Boolean eneClienteSede;
+
+    @SerializedName("gasClienteSede")
+    private Boolean gasClienteSede;
+
+    @SerializedName("sedeLegale")
+    private Boolean sedeLegale;
+
+    public String getRigaContratto() {
+        return rigaContratto;
+    }
+
+    public Boolean getIsAgenteEnabled() {
+        return isAgenteEnabled;
+    }
+
+    public Boolean getIsEnabled() {
+        return isEnabled;
+    }
+
+    public Boolean getWinback() {
+        return isWinback;
+    }
+
+    public Boolean getEneClienteSede() {
+        return eneClienteSede;
+    }
+
+    public Boolean getGasClienteSede() {
+        return gasClienteSede;
+    }
+
+    public Boolean getSedeLegale() {
+        return sedeLegale;
+    }
+}
