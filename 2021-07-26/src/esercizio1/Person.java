@@ -14,11 +14,16 @@ public class Person {
 
     private GreenPass greenPass;
 
+    static boolean flag;
+
     public Person(String name) {
         this.name = name;
     }
 
     public GreenPass vaccinate(int day) {
-        return this.greenPass == null ? new GreenPass(day + 180, this) : new GreenPass(day + 270, this);
+        flag = true;
+        this.greenPass = this.greenPass == null ? new GreenPass(day + 180, this) : new GreenPass(day + 270, this);
+        flag = false;
+        return this.greenPass;
     }
 }

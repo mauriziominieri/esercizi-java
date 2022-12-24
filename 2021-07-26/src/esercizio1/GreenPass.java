@@ -14,11 +14,9 @@ public class GreenPass {
 
     private final Person person;
 
-    public GreenPass() {
-        throw new RuntimeException("Puoi creare un GreenPass solo attraverso vaccinate()");
-    }
-
     public GreenPass(int day, Person person) {
+        if(!Person.flag)
+            throw new RuntimeException("Puoi creare un GreenPass solo attraverso vaccinate()");
         this.day = day;
         this.person = person;
     }
