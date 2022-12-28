@@ -9,6 +9,7 @@ package esercizio1;
  */
 
 /*
+(Anagrammi, 2012-9-3)
 Implementare la classe MyString, che rappresenta una stringa con la seguente caretteristica: due
 oggetti MyString sono considerati uguali (da equals) se sono uno l’anagramma dell’altro. Inoltre,
 la classe MyString deve essere clonabile e deve offrire un’implementazione di hashCode coerente
