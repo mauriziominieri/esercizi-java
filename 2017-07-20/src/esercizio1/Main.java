@@ -9,6 +9,7 @@ package esercizio1;
  */
 
 /*
+(Cartella, 2017-7-20)
 Realizzare la classe Cartella, che rappresenta una cartella nella Tombola. Una cartella contiene
 15 numeri casuali diversi, compresi tra 1 e 90, disposti in 3 righe di 5 numeri, rispettando la
 seguente regola:
