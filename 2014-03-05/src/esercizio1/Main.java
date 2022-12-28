@@ -9,6 +9,7 @@ package esercizio1;
  */
 
 /*
+(PeriodicTask, 2014-3-5)
 Realizzare la classe PeriodicTask, che consente di eseguire un Runnable periodicamente, ad intervalli specificati.
 Il costruttore accetta un oggetto Runnable r e un numero di millisecondi p, detto
 periodo, e fa partire un thread che esegue r.run() ogni p millisecondi (si noti che il costruttore
