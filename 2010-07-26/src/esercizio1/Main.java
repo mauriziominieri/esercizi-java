@@ -11,6 +11,7 @@ import static esercizio1.Piece.print_board;
  */
 
 /*
+(Tetris, 2010-7-26)
 Il Tetris è un videogioco il cui scopo è incastrare tra loro pezzi bidimensionali di 7 forme predefinite, all’interno di uno schema rettangolare. Implementare la classe astratta Piece, che rappresenta
 un generico pezzo, e le sottoclassi concrete T ed L, che rappresentano i pezzi dalla forma omonima.
 La classe Piece deve offrire i metodi put, che aggiunge questo pezzo alle coordinate date di un
