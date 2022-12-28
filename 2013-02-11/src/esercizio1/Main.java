@@ -9,6 +9,7 @@ package esercizio1;
  */
 
 /*
+(MultiSet, 2013-2-11)
 Un MultiSet è un insieme in cui ogni elemento può comparire più volte. Quindi, ammette
 duplicati come una lista, ma, a differenza di una lista, l’ordine in cui gli elementi vengono inseriti
 non è rilevante. Implementare una classe parametrica MultiSet, con i seguenti metodi:
