@@ -9,6 +9,7 @@ package esercizio1;
  */
 
 /*
+(GreenPass, 2021-7-26)
 Realizzare le classi Person e GreenPass che rappresentano una persona e una certificazione verde.
 Una persona è identificata dal suo nome. Il metodo vaccinate di Person accetta come argomento
 la data di vaccinazione (un intero che rappresenta un giorno) e restituisce un oggetto GreenPass.
