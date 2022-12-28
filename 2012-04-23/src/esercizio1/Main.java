@@ -9,6 +9,7 @@ package esercizio1;
  */
 
 /*
+(Safe, 2012-4-23)
 Implementare la classe Safe, che rappresenta una cassaforte che contiene una stringa segreta,
 protetta da un numero intero che funge da combinazione. Il costruttore accetta la combinazione
 e la stringa segreta. Il metodo open accetta un numero intero e restituisce la stringa segreta
