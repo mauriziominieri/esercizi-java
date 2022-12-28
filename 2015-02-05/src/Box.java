@@ -1,21 +1,21 @@
 import java.util.*;
 /*
- * (Box, 2015-2-5)
+(Box, 2015-2-5)
 Realizzare la classe Box, che rappresenta una scatola, caratterizzata dalle sue tre dimensioni:
 altezza, larghezza e profondità. Due scatole sono considerate uguali (da equals) se hanno le
-stesse dimensioni. Le scatole sono dotate di ordinamento naturale basato sul loro volume. Inne,
-il metodo tsIn, invocato su una scatola x, accetta un'altra scatola y e restituisce true se e solo
-se y è sufficientemente grande da contenere x.
+stesse dimensioni. Le scatole sono dotate di ordinamento naturale basato sul loro volume. Infine,
+il metodo fitsIn, invocato su una scatola x, accetta un’altra scatola y e restituisce true se e solo
+se y è sufficientemente grande da contenere x.
 Esempio d'uso:
-Box grande = new Box(20, 30, 40), grande2 = new Box(30, 20, 40),
-piccolo = new Box(10, 10, 50);
-System.out.println(grande.equals(grande2));
-System.out.println(grande.compareTo(piccolo));
-System.out.println(piccolo.fitsIn (grande));
+	Box grande = new Box(20, 30, 40), grande2 = new Box(30, 20, 40),
+	piccolo = new Box(10, 10, 50);
+	System.out.println(grande.equals(grande2));
+	System.out.println(grande.compareTo(piccolo));
+	System.out.println(piccolo.fitsIn (grande));
 Output:
-false
-1
-false
+	false
+	1
+	false
  */
 
 //ordinamento naturale si usa comparable
