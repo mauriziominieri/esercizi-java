@@ -9,6 +9,7 @@ package esercizio1;
  */
 
 /*
+(Product e Cart, 2020-1-24)
 Nell’ambito di un sistema di commercio elettronico, implementare le classi Product e Cart (carrello
 della spesa). Un prodotto è caratterizzato da descrizione e prezzo. Il tentativo di istanziare due
 oggetti prodotto con la stessa descrizione deve produrre un’eccezione.
