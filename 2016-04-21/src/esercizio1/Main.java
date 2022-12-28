@@ -9,6 +9,7 @@ package esercizio1;
  */
 
 /*
+(Engine, 2016-4-21)
 Realizzare la classe Engine, che rappresenta un motore a combustione, caratterizzato da cilindrata (in cm3
 ) e potenza (in cavalli). Normalmente, due oggetti Engine sono uguali
 se hanno la stessa cilindrata e la stessa potenza. Il metodo byVolume converte questo Engine in
