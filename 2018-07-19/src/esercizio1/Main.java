@@ -9,6 +9,7 @@ package esercizio1;
  */
 
 /*
+(Fraction, 2018-7-19)
 Implementare la classe Fraction, che rappresenta una frazione, e la sottoclasse ReducedFraction,
 che rappresenta una frazione irriducibile.
 Due oggetti di questi tipi devono essere uguali per equals se rappresentano lo stesso numero

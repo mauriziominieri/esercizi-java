@@ -30,6 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
@@ -61,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671727216530</updated>
       <workItem from="1671727217609" duration="6569000" />
+      <workItem from="1672237589607" duration="36000" />
     </task>
     <servers />
   </component>
@@ -79,11 +81,6 @@
           <url>file://$PROJECT_DIR$/src/esercizio1/ReducedFraction.java</url>
           <line>27</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/esercizio1/Main.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
