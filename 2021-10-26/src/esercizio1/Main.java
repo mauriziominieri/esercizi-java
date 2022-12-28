@@ -7,7 +7,7 @@ package esercizio1;
  **/
 
 /*
-40 punti
+(WiFi, 2021-10-26)
 Realizzare le classi WiFi e Network, che rappresentano un clenco di reti WiFi e una singola rete.
 La classe WiFi offre un costruttore senza argomenti e i seguenti metodi:
 	• addNetwork: memorizza e restituisce una nuova rete, caratterizzata da nome (SSID) e intensità del segnale.
