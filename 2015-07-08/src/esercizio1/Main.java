@@ -9,6 +9,7 @@ package esercizio1;
  */
 
 /*
+(Question e Answer, 2015-7-8)
 Per un sito di domande e risposte, realizzare le classi Question e Answer. Ogni risposta è associata
 ad un’unica domanda e gli utenti possono votare la risposta migliore invocando il metodo voteUp
 di Answer. Inoltre, il metodo getBestAnswer restituisce in tempo costante la risposta (o una delle
