@@ -1,21 +1,23 @@
 import java.util.*;
+
 /*
- * (Time, 2010-9-14)
+(Time, 2010-9-14)
 Implementare la classe Time, che rappresenta un orario della giornata (dalle 00:00:00 alle 23:59:59).
-Gli orari devono essere confrontabili secondo Comparable. Il metodo minus accetta un altro orario x come argomento e restituisce la dierenza tra questo orario e x, sotto forma di un nuovo
-oggetto Time. La classe fornisce anche gli orari predeniti MIDDAY e MIDNIGHT.
+Gli orari devono essere confrontabili secondo Comparable. Il metodo minus accetta un altro orario x come argomento e restituisce la differenza tra questo orario e x, sotto forma di un nuovo
+oggetto Time. La classe fornisce anche gli orari predefiniti MIDDAY e MIDNIGHT.
 Esempio d'uso:
-Time t1 = new Time(14,35,0);
-Time t2 = new Time(7,10,30);
-Time t3 = t1.minus(t2);
-System.out.println(t3);
-System.out.println(t3.compareTo(t2));
-System.out.println(t3.compareTo(Time.MIDDAY));
+	Time t1 = new Time(14,35,0);
+	Time t2 = new Time(7,10,30);
+	Time t3 = t1.minus(t2);
+	System.out.println(t3);
+	System.out.println(t3.compareTo(t2));
+	System.out.println(t3.compareTo(Time.MIDDAY));
 Output dell'esempio d'uso:
-7:24:30
-1
--1
+	7:24:30
+	1
+	-1
  */
+
 public class Time implements Comparable<Time>{
 	
 	protected static Time MIDDAY = new Time(12,0,0);
