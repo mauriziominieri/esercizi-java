@@ -9,6 +9,7 @@ package esercizio1;
  */
 
 /*
+(Crosswords, 2010-5-3)
 Si implementi la classe Crosswords, che rappresenta uno schema di parole crociate, inizialmente
 vuoto. Il costruttore accetta le dimensioni dello schema. Il metodo addWord aggiunge una parola
 allo schema e restituisce true, a patto che la parola sia compatibile con quelle precedentemente
