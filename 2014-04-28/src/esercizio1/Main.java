@@ -9,6 +9,7 @@ package esercizio1;
  */
 
 /*
+(Shape, 2014-4-28)
 Per un programma di geometria piana, realizzare la classe astratta Shape e la
 sottoclasse concreta Circle. La classe Shape dispone dei metodi width, height, posX e posY, che
 restituiscono rispettivamente la larghezza, l’altezza, la posizione sulle ascisse e la posizione sulle
