@@ -9,6 +9,7 @@ package esercizio1;
  */
 
 /*
+(Monomio, 2007-2-7)
 Un monomio è una espressione algebrica del tipo an · x^n, cioè è un particolare tipo di polinomio
 composto da un solo termine. Implementare una classe Monomial come sottoclasse di Polynomial.
 La classe Monomial deve offrire un costruttore che accetta il grado n e il coefficiente an che
