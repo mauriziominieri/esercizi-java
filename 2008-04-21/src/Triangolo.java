@@ -2,7 +2,7 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
 /*
- * (Triangolo, 2008-4-21)
+(Triangolo, 2008-4-21)
 Nell'ambito di un programma di geometria, si implementi la classe Triangolo, il cui costruttore
 accetta le misure dei tre lati. Se tali misure non danno luogo ad un triangolo, il costruttore deve
 lanciare un'eccezione. Il metodo getArea restituisce l'area di questo triangolo. Si implementino
@@ -12,21 +12,21 @@ Si ricordi che:
 • Tre numeri a, b e c possono essere i lati di un triangolo a patto che a < b + c, b < a + c e
 c < a + b.
 • L'area di un triangolo di lati a, b e c è data da:
-p
-p · (p − a) · (p − b) · (p − c) (formula di Erone)
+radice p · (p − a) · (p − b) · (p − c) (formula di Erone)
 dove p è il semiperimetro.
 Esempio d'uso (fuori dalla classe Triangolo):
-Triangolo x = new Triangolo(10,20,25);
-Triangolo y = new Triangolo.Rettangolo(5,8);
-Triangolo z = new Triangolo.Isoscele(6,5);
-System.out.println(x.getArea());
-System.out.println(y.getArea());
-System.out.println(z.getArea());
+	Triangolo x = new Triangolo(10,20,25);
+	Triangolo y = new Triangolo.Rettangolo(5,8);
+	Triangolo z = new Triangolo.Isoscele(6,5);
+	System.out.println(x.getArea());
+	System.out.println(y.getArea());
+	System.out.println(z.getArea());
 Output dell'esempio d'uso:
-94.9918
-19.9999
-12.0
+	94.9918
+	19.9999
+	12.0
  */
+
 public class Triangolo {
 	
 	private double a,b,c;
