@@ -1,5 +1,5 @@
 /*
- * (Interval, 2009-1-29)
+(Interval, 2009-1-29)
 Si implementi la classe Interval, che rappresenta un intervallo di numeri reali. Un intervallo
 può essere chiuso oppure aperto, sia a sinistra che a destra. Il metodo contains prende come
 argomento un numero x e restituisce vero se e solo se x appartiene a questo intervallo. Il metodo
@@ -7,19 +7,20 @@ join restituisce l'unione di due intervalli, senza modicarli, sollevando un'ecc
 cui questa unione non sia un intervallo. Si implementino anche le classi Open e Closed, in modo
 da rispettare il seguente caso d'uso.
 Esempio d'uso:
-Interval i1 = new Interval.Open(5, 10.5);
-Interval i2 = new Interval.Closed(7, 20);
-Interval i3 = i1. join (i2);
-System.out.println(i1.contains(5));
-System.out.println(i1);
-System.out.println(i2);
-System.out.println(i3);
+	Interval i1 = new Interval.Open(5, 10.5);
+	Interval i2 = new Interval.Closed(7, 20);
+	Interval i3 = i1. join (i2);
+	System.out.println(i1.contains(5));
+	System.out.println(i1);
+	System.out.println(i2);
+	System.out.println(i3);
 Output dell'esempio d'uso:
-false
-(5, 10.5)
-[7, 20]
-(5, 20]
+	false
+	(5, 10.5)
+	[7, 20]
+	(5, 20]
  */
+
 public class Interval {
 	
 	protected double min,max; 
