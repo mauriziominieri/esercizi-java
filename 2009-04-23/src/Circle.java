@@ -1,5 +1,5 @@
 /*
- * (Circle, 2009-4-23)
+(Circle, 2009-4-23)
 Nell'ambito di un programma di geometria, la classe Circle rappresenta una circonferenza sul
 piano cartesiano. Il suo costruttore accetta le coordinate del centro ed il valore del raggio. Il
 metodo overlaps prende come argomento un'altra circonferenza e restituisce vero se e solo se le
@@ -9,14 +9,15 @@ circonferenza è minore di un'altra se è interamente contenuta in essa, mentr
 due circonferenze è contenuta nell'altra, esse sono considerate uguali. Dire se tale criterio di
 ordinamento è valido, giusticando la risposta.
 Esempio d'uso:
-Circle c1 = new Circle(0,0,2);
-Circle c2 = new Circle(1,1,1);
-System.out.println(c1.overlaps(c2));
-System.out.println(c1.compareTo(c2));
+	Circle c1 = new Circle(0,0,2);
+	Circle c2 = new Circle(1,1,1);
+	System.out.println(c1.overlaps(c2));
+	System.out.println(c1.compareTo(c2));
 Output dell'esempio d'uso:
-true
-0
+	true
+	0
  */
+
 public class Circle implements Comparable<Circle>{
 	
 	private Integer CX,CY,raggio;
