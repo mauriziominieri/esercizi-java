@@ -33,14 +33,14 @@ Esempio d’uso:
     print_board(board);
 Output dell’esempio d’uso:
     --------------------------
-    X X
+     X  X
     XXX X
-    XX
+        XX
     --------------------------
-    X X
+     X  X
     XXX X
-    XX XXX
-    X
+        XX XXX
+           X
  */
 
 public class Main {
