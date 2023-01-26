@@ -35,17 +35,17 @@ public class Main {
 //        for(Integer w : clq)
 //            clq.remove(w);
 
-//        List<Integer> a1 = new ArrayList<>(original);
-//        for(Integer w : a1)
-//            a1.remove(w);
-
+        List<Integer> a1 = new ArrayList<>(original);
+        for(Integer w : a1)
+            a1.remove(w);
+//
 //        List<Integer> s1 = Collections.synchronizedList(original);
 //        for(Integer w : s1)
 //            s1.remove(w);
-
-        List<Integer> cwa = new CopyOnWriteArrayList<>(original);
-        for(Integer w : cwa)
-            cwa.remove(w);
+//
+//        List<Integer> cwa = new CopyOnWriteArrayList<>(original);
+//        for(Integer w : cwa)
+//            cwa.remove(w);
 
         System.out.println(original);
     }

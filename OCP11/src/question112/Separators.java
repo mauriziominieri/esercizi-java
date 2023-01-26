@@ -33,10 +33,6 @@ Which code will accomplish this?
         private static String separator = "/";
         private static String pathSeparator = ":";
     }
-
-Option 1 : Using enum will not provide security in this case, as the fields will still be public and can be modified by client code.
-Option 2 : Using interface will also not provide security, as the fields will be public and can be modified by client code.
-Option 3 : Using abstract class will not provide security in this case, as the fields will be public and can be modified by client code.
  */
 public class Separators {
     public static String separator = "/";

@@ -8,7 +8,7 @@ package question135;
  * @website: www.mauriziominieri.it
  */
 
-/*  TODO: GPT ha dubbi tra la 1 e la 2
+/*  TODO: GPT ha dubbi tra la 1 e la 2, sono più orientato per la 1
 When is it necessary to execute this statement?
     It is no longer required to execute this method.
  */
