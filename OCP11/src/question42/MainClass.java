@@ -18,11 +18,17 @@ Which three classes successfully override showFirst()?
     2.  public abstract class MainClass implements AdaptorFirst {
             public abstract void showFirst();
         }
-    3.  ???
+    3.  public class MainClass implements AdaptorFirst {
+            public void showFirst() {
+                System.out.println("first");
+            }
+        }
  */
 interface AdaptorFirst {
     void showFirst();
 }
-public abstract class MainClass implements AdaptorFirst {
-    public abstract void showFirst();
+public class MainClass implements AdaptorFirst {
+    public void showFirst() {
+        System.out.println("first");
+    }
 }

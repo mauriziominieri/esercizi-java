@@ -12,8 +12,8 @@ import java.util.ArrayList;
 
 /*
 Which two var declarations are correct?
-    var var = "hello";
-    var names = new ArrayList<>();
+    1. var var = "hello";
+    2. var names = new ArrayList<>();
  */
 public class Main {
     public static void main(String[] args) {

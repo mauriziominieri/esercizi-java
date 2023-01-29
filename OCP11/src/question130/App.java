@@ -12,7 +12,7 @@ package question130;
 Which statement is true?
     The code fails to compile at line n1.
  */
-// è possibile usare il tipo var solo nei metodi o inizializzatori (blocchi di codice)
+// è possibile usare il tipo var solo come variabili locali nei metodi o inizializzatori (blocchi di codice) e devono sempre essere inizializzate (non null)
 public class App {
 //    var a = true;           // line n1
     {

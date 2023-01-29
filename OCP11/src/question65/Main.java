@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 Which code fragment inserted on line 11 prints the average salary of all employees from the Bay Area?
     .filter(e -> e.getLocality().equals("Bay Area")).mapToInt(Employee::getSalary).average().getAsDouble();
  */
-// Ricorda che il metodo average è del mapToInt() o mapToDouble() e DEVE ESSERCI il metodo .getAsDouble() o .orElse(0.0)
+// Ricorda che il metodo average è senza parametri, è del mapToInt() o mapToDouble() e DEVE ESSERCI il metodo .getAsDouble() o .orElse(0.0)
 class Employee {
     private String locality;
     private int salary;

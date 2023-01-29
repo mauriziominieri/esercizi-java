@@ -8,7 +8,7 @@ package question16;
  * @website: www.mauriziominieri.it
  */
 
-/*  TODO: non mi trovo con il word
+/*
 Which set of command is necessary to create and run a custom runtime image from Java source files?
     javac, jlink
  */

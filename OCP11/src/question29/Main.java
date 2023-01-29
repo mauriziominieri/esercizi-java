@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 /*
 Which code fragment on line 1 makes the m map contain the employee with the highest salary for each neighborhood?
-    collect(Collectors.groupingBy(Employee::getNeighborhood,Collectors.maxBy(Comparator.comparing(Employee::getSalary))));
+    .collect(Collectors.groupingBy(Employee::getNeighborhood,Collectors.maxBy(Comparator.comparing(Employee::getSalary))));
  */
 class Employee {
     private String name;

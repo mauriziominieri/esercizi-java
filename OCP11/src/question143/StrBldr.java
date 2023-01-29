@@ -8,9 +8,9 @@ package question143;
  * @website: www.mauriziominieri.it
  */
 
-/*
+/* Non confonderla con la 38
 What is the result?
-    hey oh hi yo ey (attenzione alla similitudine con la domanda 38)
+    hey oh hi yo ey
  */
 public class StrBldr {
     static StringBuilder sb1 = new StringBuilder("yo ");

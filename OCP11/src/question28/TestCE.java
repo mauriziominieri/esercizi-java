@@ -9,8 +9,7 @@ package question28;
  */
 
 /*
-You must define the A exception class. The program execution must be terminated if the condition at line 19
-is true and an A exception is thrown at line 20.
+You must define the A exception class. The program execution must be terminated if the condition at line 19 is true and an A exception is thrown at line 20.
 Which code fragment at line n1 defines A as per the requirement?
     class A extends Throwable {
 */
